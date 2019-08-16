@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e61c605e-956b-4c2a-be06-800221d7ff35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/coreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/coreTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -291,9 +289,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="coreTests_verifyGlobalElements - 2019.08.15 at 12h 02m 19s.xml">
-      <configuration name="coreTests.verifyGlobalElements" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="coreTests_verifyGlobalElements - 2019.08.15 at 12h 03m 27s.xml">
       <configuration name="coreTests.verifyGlobalElements" configurationId="TestNG" />
     </history-entry>
@@ -321,12 +316,15 @@
     <history-entry file="C__Automation_testng_xml - 2019.08.16 at 15h 28m 09s.xml">
       <configuration name="C:/Automation/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Automation_testng_xml - 2019.08.16 at 15h 28m 54s.xml">
+      <configuration name="C:/Automation/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7750533" visible="true" weight="0.38353196" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7750533" visible="true" weight="0.38353196" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
