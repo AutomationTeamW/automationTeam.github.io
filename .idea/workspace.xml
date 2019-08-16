@@ -250,9 +250,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.coreTests.verifyGlobalElements" />
-      <item itemvalue="TestNG.coreTests.testLogin" />
       <item itemvalue="TestNG.C:/Automation/testng.xml" />
+      <item itemvalue="TestNG.coreTests.testLogin" />
+      <item itemvalue="TestNG.coreTests.verifyGlobalElements" />
     </list>
     <recent_temporary>
       <list>
