@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e61c605e-956b-4c2a-be06-800221d7ff35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/coreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/coreTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/coreTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/coreTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +20,31 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/coreTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="207" column="33" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/client-combined-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -86,6 +103,9 @@
     <findStrings>
       <find>getM</find>
       <find>js</find>
+      <find>SWI</find>
+      <find>switch</find>
+      <find>cont</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,9 +152,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="195" />
-    <option name="y" value="78" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="194" />
+    <option name="y" value="77" />
     <option name="width" value="1152" />
     <option name="height" value="624" />
   </component>
@@ -144,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -210,11 +230,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.coreTests.openPDPAndAddProceedToCheckout">
-    <configuration name="C:/Automation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.coreTests.testSelectProductAndOpenIt">
+    <configuration name="coreTests.openCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.coreTests" />
+      <option name="METHOD_NAME" value="openCartPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -232,6 +260,24 @@
       <option name="PACKAGE_NAME" value="Selenium" />
       <option name="MAIN_CLASS_NAME" value="Selenium.coreTests" />
       <option name="METHOD_NAME" value="openPDPAndAddProceedToCheckout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="coreTests.orderWithWrongCreditCard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.coreTests" />
+      <option name="METHOD_NAME" value="orderWithWrongCreditCard" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -317,17 +363,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.coreTests.verifyGlobalElements" />
-      <item itemvalue="TestNG.C:/Automation/testng.xml" />
       <item itemvalue="TestNG.coreTests.testLogin" />
       <item itemvalue="TestNG.coreTests.testSelectProductAndOpenIt" />
       <item itemvalue="TestNG.coreTests.openPDPAndAddProceedToCheckout" />
+      <item itemvalue="TestNG.coreTests.openCartPage" />
+      <item itemvalue="TestNG.coreTests.orderWithWrongCreditCard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.coreTests.testSelectProductAndOpenIt" />
+        <item itemvalue="TestNG.coreTests.orderWithWrongCreditCard" />
+        <item itemvalue="TestNG.coreTests.openCartPage" />
         <item itemvalue="TestNG.coreTests.openPDPAndAddProceedToCheckout" />
         <item itemvalue="TestNG.coreTests.testLogin" />
-        <item itemvalue="TestNG.coreTests.testSelectProductAndOpenIt" />
-        <item itemvalue="TestNG.C:/Automation/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -356,46 +404,52 @@
       <option name="project" value="LOCAL" />
       <updated>1565785647098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="checking for error messages">
+      <created>1568214217388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568214217388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 10h 35m 35s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 29m 34s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 10h 41m 38s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 33m 50s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 10h 58m 59s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 36m 55s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 11h 00m 47s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 40m 33s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 11h 03m 47s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 43m 37s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 11h 06m 31s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 47m 43s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 11h 19m 36s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 51m 16s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 11h 22m 03s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 17h 58m 59s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 11h 30m 21s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_orderWithWrongCreditCard - 2019.09.10 at 18h 02m 07s.xml">
+      <configuration name="coreTests.orderWithWrongCreditCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="coreTests_openPDPAndAddProceedToCheckout - 2019.08.28 at 11h 33m 18s.xml">
-      <configuration name="coreTests.openPDPAndAddProceedToCheckout" configurationId="TestNG" />
+    <history-entry file="coreTests_testSelectProductAndOpenIt - 2019.09.11 at 16h 22m 36s.xml">
+      <configuration name="coreTests.testSelectProductAndOpenIt" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12793177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,14 +458,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76865673" visible="true" weight="0.31527627" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64946383" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76759064" weight="0.24593717" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6487207" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.23134328" side_tool="true" visible="true" weight="0.31527627" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49946696" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48081023" weight="0.35536295" />
       <window_info anchor="bottom" id="SVN Repositories" order="11" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -466,32 +520,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test01" />
-    <option name="LAST_COMMIT_MESSAGE" value="test01" />
+    <MESSAGE value="checking for error messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking for error messages" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="driver" />
+        <watch expression="driver.findElement(By.cssSelector(&quot;span[class='base']&quot;))" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/DriverManagerFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/DriverManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/coreTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="207" column="33" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/TimeUnit.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/client-combined-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6800">
-          <caret line="441" column="16" selection-start-line="441" selection-start-column="16" selection-end-line="441" selection-end-column="16" />
+        <state relative-caret-position="391">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -518,6 +574,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/initial">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6800">
+          <caret line="441" column="16" selection-start-line="441" selection-start-column="16" selection-end-line="441" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Selenium/coreTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="107" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
