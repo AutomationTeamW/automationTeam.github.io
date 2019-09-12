@@ -3,7 +3,7 @@
 <suite name="Suite1">
   <test name="Automation">
     <classes>
-      <class name="Selenium.coreTests">
+      <class name="target.test-classes.Selenium.coreTests.class">
         <methods>
 		  <include name="verifyGlobalElements"/>
         </methods>
