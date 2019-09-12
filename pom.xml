@@ -16,7 +16,7 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <additionalClasspathElements>
-                        <additionalClasspathElement>target/test-classes/Selenium/coreTests.classes</additionalClasspathElement>
+                        <additionalClasspathElement>target/test-classes/Selenium/coreTests</additionalClasspathElement>
                     </additionalClasspathElements>
                 </configuration>
             </plugin>
