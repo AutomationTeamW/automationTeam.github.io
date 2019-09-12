@@ -3,11 +3,7 @@
 <suite name="Suite1">
   <test name="Automation">
     <classes>
-      <class name="Selenium.coreTests">
-        <methods>
-		  <include name="verifyGlobalElements"/>
-        </methods>
-      </class> <!-- Selenium.coreTests -->
+      <class name="Selenium.coreTests"/>
     </classes>
   </test> <!-- Automation -->
 </suite> <!-- Default Suite -->
