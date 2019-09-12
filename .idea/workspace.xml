@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e61c605e-956b-4c2a-be06-800221d7ff35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coreTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/coreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/coreTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/xmls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium/coreTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Selenium/coreTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="e61c605e-956b-4c2a-be06-800221d7ff35" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -417,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568214579867</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="checking for error messages">
+      <created>1568276490799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568276490799</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
